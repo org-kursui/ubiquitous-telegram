@@ -1,0 +1,135 @@
+:root {
+  --logoColor: rgb(189, 139, 34);
+  --navColor: #0c2233;
+  --caption-1: #de483d;
+  --caption-2: #f6cb1d;
+  --caption-3: #6c4e52;
+  --pColor: rgb(155, 155, 155);
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* NAVBAR */
+.logo {
+  width: 90px;
+  height: 90%;
+}
+
+.my_navbar-toggler, .card-title {
+  color: var(--logoColor);
+}
+
+.my_menu, .card-text {
+color: var(--navColor);
+}
+
+.my_navbar,
+footer,
+.my-card-1,
+.my-card-2,
+.my-card-3,
+.my-card-4 {
+  background-color: rgb(12, 33, 51);
+}
+
+p {
+  color: var(--pColor);
+  font-size: 10px;
+}
+
+.list-group {
+  display: inline;
+}
+
+.my_position {
+  right: 35px;
+}
+
+.my_menu {
+  font-size:14px;
+}
+
+/* footer */
+.icon-footer {
+  float: left;
+}
+
+.text-padding {
+  padding-left: 15px;
+}
+
+hr {
+  color: var(--pColor);
+  opacity: 10%;
+  margin-top: -15px;
+}
+
+.footer-icon-color,
+.nav-icon-color {
+  color: var(--pColor);
+}
+
+.footer-icon-color:hover,
+.nav-icon-color:hover,
+.my_footer:hover, .my_menu:hover {
+  color: var(--logoColor);
+}
+
+.footer-logo{
+  display: block;
+}
+
+/* .my_nav_icons {
+  margin-left: 290px;
+} */
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/********* CAROUSEL  **********/
+
+.carousel-inner img {
+  height: 600px;
+}
+
+.caption-1 {
+  top: 200px;
+  right: 100px;
+  text-align: right;
+  color: var(--caption-1);
+}
+
+.caption-2 {
+  bottom: 0px;
+  left: 70px;
+  text-align: left;
+  color: var(--caption-2);
+}
+
+.caption-3 {
+  bottom: 0;
+  color: var(--caption-3);
+}
+
+/********* REDIRECT TO OTHER MENU  **********/
+
+.redirect-header {
+  font-size: 2.5rem;
+}
+
+.redirect-text {
+  font-size: 1.2rem;
+}
+
+/*tablet view*/
+@media (max-width: 900px) {
+}
+
+/*mobile view*/
+@media (max-width: 600px) {
+}
